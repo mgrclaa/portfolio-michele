@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'PixelFont';
+  src: url('/fonts/PressStart2P-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.opening {
+    width : 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('/images/opening/galaxy-background.png');
+    background-size: cover;
+    background-position: center;
+
+    font-family: 'PixelFont';
+}
+
+.opening-content {
+    text-align: center;
+}
+
+.opening h1 {
+  color: #f2d9ff;
+  margin: 0;
+  font-size: 64px;
+
+   text-shadow:
+    0 0 8px #c77dff,
+    0 0 18px #9b5de5;
+}
+
+.opening h2 {
+ margin: 5px 0 0;
+  font-size: 36px;
+  letter-spacing: 6px;
+  color: #e8d5ff;
+
+  text-shadow:
+    0 0 6px #b983ff,
+    0 0 12px #8f5bd6;
+}
+
+.subtitle {
+  margin-top: 22px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #d8c7e8;
+}
+
+.start-button {
+  margin-top: 35px;
+  padding: 14px 24px;
+
+  background: rgba(10, 5, 30, 0.65);
+  border: 2px solid #c77dff;
+
+  color: #f2d9ff;
+  font-family: 'PixelFont', sans-serif;
+  font-size: 14px;
+
+  text-shadow:
+    0 0 6px #c77dff,
+    0 0 12px #9b5de5;
+
+  box-shadow:
+    0 0 8px rgba(199, 125, 255, 0.5);
+
+  cursor: pointer;
+}
+
+.sparkle {
+  position: absolute;
+  color: #f2d9ff;
+  font-size: 18px;
+
+  text-shadow:
+    0 0 6px #c77dff,
+    0 0 12px #9b5de5;
+
+  animation: sparkle 2s infinite;
+}
+
+.sparkle-1 {
+  top: 25%;
+  left: 20%;
+}
+
+@keyframes sparkle {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+
+.sparkle-2 {
+  top: 15%;
+  left: 70%;
+  animation-delay: 0.5s;
+}
+
+.sparkle-3 {
+  top: 40%;
+  left: 12%;
+  animation-delay: 1s;
+}
+
+.sparkle-4 {
+  top: 55%;
+  left: 82%;
+  animation-delay: 1.5s;
+}
+
+.sparkle-5 {
+  top: 75%;
+  left: 25%;
+  animation-delay: 0.8s;
+}
+
+.sparkle-6 {
+  top: 70%;
+  left: 72%;
+  animation-delay: 1.8s;
+}
+
+.sparkle-7 {
+  top: 35%;
+  left: 88%;
+  animation-delay: 2.3s;
+}
