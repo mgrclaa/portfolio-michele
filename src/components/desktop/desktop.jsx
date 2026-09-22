@@ -27,16 +27,42 @@ const projects = [
   },
 
       {
-    title: "Furniland",
-    category: "Web Development",
-    year: "2025",
+    title: "BREW",
+    category: "Business Case",
+    year: "2026",
     image: "/images/desktop/3.png",
     description:
-      "A mobile application designed to help prevent stunting by supporting parents with accessible nutrition information, meal recommendations, and child growth monitoring.",
+      "BREW is a business case project focused on addressing operational and customer experience challenges in a coffee shop. I contributed to developing the business framework and analyzing the problem to identify suitable solutions. Our proposed solution involved leveraging data analytics integrated with AI to support data-driven decision-making, along with IoT integration to improve operational efficiency and customer experience.",
     role: "Web Developer Designer",
     tools: "Figma",
     link: "https://canva.link/c98hi45hq0ehnm8",
   },
+
+    {
+    title: "CORE",
+    category: "Business Case",
+    year: "2026",
+    image: "/images/desktop/4.png",
+    description:
+      "CORE is a business case competition project focused on developing technology-driven solutions for Netflix across content optimization, VFX operations, and user personalization. I contributed by analyzing the business case and developing the user personalization solution, focusing on an AI-powered assistant for personalized content recommendations and an enhanced viewing experience. Ranked 1st among the Top Semifinalists.",
+    role: "Business Analyst",
+    tools: "Figma",
+    link: "https://www.canva.com/design/DAG8ShxfvA0/cTDlLI85YQi49NDYyQchBw/edit?utm_content=DAG8ShxfvA0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+  },
+
+      {
+    title: "CORE",
+    category: "Business Case",
+    year: "2026",
+    image: "/images/desktop/4.png",
+    description:
+      "CORE is a business case competition project focused on developing technology-driven solutions for Netflix across content optimization, VFX operations, and user personalization. I contributed by analyzing the business case and developing the user personalization solution, focusing on an AI-powered assistant for personalized content recommendations and an enhanced viewing experience. Ranked 1st among the Top Semifinalists.",
+    role: "Business Analyst",
+    tools: "Figma",
+    link: "https://www.canva.com/design/DAG8ShxfvA0/cTDlLI85YQi49NDYyQchBw/edit?utm_content=DAG8ShxfvA0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+  },
+
+
 ]
 
 function Desktop() {
