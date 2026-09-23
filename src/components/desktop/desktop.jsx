@@ -27,15 +27,15 @@ const projects = [
   },
 
       {
-    title: "BREW",
+    title: "COMPSIS",
     category: "Business Case",
     year: "2026",
-    image: "/images/desktop/3.png",
+    image: "/images/desktop/8.jpg",
     description:
-      "BREW is a business case project focused on addressing operational and customer experience challenges in a coffee shop. I contributed to developing the business framework and analyzing the problem to identify suitable solutions. Our proposed solution involved leveraging data analytics integrated with AI to support data-driven decision-making, along with IoT integration to improve operational efficiency and customer experience.",
-    role: "Web Developer Designer",
+      "COMPSIS is an official website prototype developed by Information Systems students as part of ISPM. I contributed to the system analysis and UI/UX design process, starting from developing the ERD and class diagram to conducting user interviews, defining user requirements, and designing the website flow and interface. The project was recognized as the Best Project in ISPM.",
+    role: "System Analyst & UI/UX",
     tools: "Figma",
-    link: "https://canva.link/c98hi45hq0ehnm8",
+    link: "https://www.figma.com/design/iJwO4vKs7zfRXpCD0NxiGG/UI-UX-ISPM?t=qsJK6Dh1jGpSpWJD-1",
   },
 
     {
@@ -51,18 +51,178 @@ const projects = [
   },
 
       {
-    title: "CORE",
-    category: "Business Case",
+    title: "BinGo",
+    category: "UI/UX Design & Business",
     year: "2026",
-    image: "/images/desktop/4.png",
+    image: "/images/desktop/5.png",
     description:
-      "CORE is a business case competition project focused on developing technology-driven solutions for Netflix across content optimization, VFX operations, and user personalization. I contributed by analyzing the business case and developing the user personalization solution, focusing on an AI-powered assistant for personalized content recommendations and an enhanced viewing experience. Ranked 1st among the Top Semifinalists.",
+      "BinGo is a smart waste management application designed to encourage proper waste disposal through IoT-enabled waste stations placed in various locations. Users can dispose of waste at designated stations, earn points and vouchers, and access educational videos and tutorials to learn how to identify and properly sort different types of waste. As the UI/UX Designer, I designed the user interface and experience while also contributing to the development of the overall solution and its features. The project advanced to the semifinal round of the competition.",
     role: "Business Analyst",
     tools: "Figma",
-    link: "https://www.canva.com/design/DAG8ShxfvA0/cTDlLI85YQi49NDYyQchBw/edit?utm_content=DAG8ShxfvA0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    link: "https://www.figma.com/design/R80zRAIS0ZSvecW5jHQrSz/IOFEST?node-id=0-1&t=HiF2rfDBVgo75744-1",
   },
 
+        {
+    title: "Chocolate Analyze",
+    category: "Data Analytics",
+    year: "2026",
+    image: "/images/desktop/6.png",
+    description:
+      "This project involved analyzing a chocolate dataset containing information on different chocolate products, companies, and years to identify sales patterns and generate business insights. I contributed to developing the dashboard and data visualizations, transforming the analysis into charts and insights that could support business recommendations. The project received a 95 as the final project grade.",
+    role: "Business Analyst",
+    tools: "Figma",
+    link: "https://canva.link/8lq4gj0xsmrr3gp",
+  },
 
+         {
+    title: "GroWaste",
+    category: "UI/UX & Business",
+    year: "2026",
+    image: "/images/desktop/7.jpg",
+    description:
+      "GroWaste is an integrated food waste management platform designed to connect households, businesses, waste collection services, and compost-processing partners. The proposed system integrates IoT-enabled waste stations with pickup and drop-off services, allowing food waste to be collected and processed into compost products that can be sold through the platform. As a Business Analyst and UI/UX Designer, I analyzed competitors, conducted SWOT analysis, developed the project timeline, contributed to the business model, and designed the application prototype.",
+    role: "UI/UX & Business",
+    tools: "Figma",
+    link: "https://canva.link/0jk0kfphnd9nhhm",
+  },
+
+  
+         {
+    title: "Structured Prompting",
+    category: "Research & Analytics",
+    year: "2026",
+    image: "/images/desktop/9.jpg",
+    description:
+      "This research examined the use of structured prompting among university students through a quantitative research approach. Data was collected using a close-ended questionnaire and analyzed using SmartPLS to examine the relationships between the selected research variables. I contributed to the development of the research paper, including the introduction, research analysis, and interpretation of the findings.",
+    role: "Research Analyst",
+    tools: "SmartPLS",
+    link: "https://www.figma.com/design/R80zRAIS0ZSvecW5jHQrSz/IOFEST?node-id=0-1&t=HiF2rfDBVgo75744-1",
+  },
+
+  
+
+]
+
+const experiences = [
+  {
+    year: "2026",
+    title: "Head of Product Management",
+    company: "PT Ruang Tumbuh Indonesia",
+    category: "Product Management",
+    icon: "💼",
+    description:
+      "Created successful products and programs by analyzing target markets and using qualitative and quantitative data. Developed English programs that successfully reached a large audience."
+  },
+
+  {
+    year: "2026",
+    title: "Data Analyst Intern",
+    company: "PT VINIX7",
+    category: "Data Analytics",
+    icon: "📊",
+    description:
+      "Conducted exploratory data analysis and presented findings through dashboards containing 5+ charts and KPI cards. Analyzed child mortality data based on diseases and age across the world."
+  },
+
+  {
+    year: "2026",
+    title: "Regional President of Alam Sutera",
+    company: "BSLC",
+    category: "Leadership",
+    icon: "👥",
+    description:
+      "Led 46+ board members, activists, and staff alongside the Deputy Regional President. Oversaw regional operations, monitored program execution, ensured organizational goals were achieved, and served as a speaker for LDKCP."
+  },
+
+  {
+    year: "2026",
+    title: "Beelingua Mentor",
+    company: "BSLC",
+    category: "Mentoring",
+    icon: "🎓",
+    description:
+      "Mentored Beelingua participants throughout their learning journey by providing guidance and support. 86% of mentees successfully completed Beelingua on time with the support provided."
+  },
+
+  {
+    year: "2026",
+    title: "Vice Project Leader",
+    company: "CanvaCamp",
+    category: "Project Management",
+    icon: "🎨",
+    description:
+      "Coordinated 6 divisions and 40+ committee members to deliver CanvaCamp, a creative graphic design bootcamp attended by 800+ online participants."
+  },
+
+  {
+    year: "2025–2026",
+    title: "Assistant Manager of HRD",
+    company: "Binus English Club",
+    category: "Leadership & HR",
+    icon: "👥",
+    description:
+      "Supervised 10+ people and developed HR initiatives, coordinated member development programs, and managed recruitment and organizational growth strategies within the division."
+  },
+
+  {
+    year: "2025–2026",
+    title: "Coordinator & Staff Events",
+    company: "BSLC",
+    category: "Event Management",
+    icon: "📅",
+    description:
+      "Coordinated and managed the planning, arrangements, and resources for more than 5 events in BSLC."
+  },
+
+  {
+    year: "2025–2026",
+    title: "Event Coordinator — NMR",
+    company: "BNEC",
+    category: "Event Coordination",
+    icon: "🎪",
+    description:
+      "Led the end-to-end execution of organizational events, coordinating cross-functional teams and ensuring programs were delivered effectively from planning to completion, successfully gaining 60+ registrants."
+  },
+
+  {
+    year: "2025–2026",
+    title: "MC & MC Trainer",
+    company: "BNEC",
+    category: "Public Speaking",
+    icon: "🎤",
+    description:
+      "Hosted 4 organizational events as Master of Ceremony and mentored members through MC training sessions, helping develop public speaking, stage presence, and event-hosting skills."
+  },
+
+  {
+    year: "2025",
+    title: "Information Systems Project Member",
+    company: "BINUS University",
+    category: "UI/UX & System Development",
+    icon: "💻",
+    description:
+      "Designed the official BINUS competition management website as part of a team, developing the UI/UX to streamline competition management for the School of Information Systems."
+  },
+
+  {
+    year: "2025",
+    title: "Freshmen Leader",
+    company: "BINUS University",
+    category: "Mentoring & Leadership",
+    icon: "🌱",
+    description:
+      "Led and guided 50+ freshmen alongside a team of student leaders, facilitating their transition and adaptation to university life through orientation and mentoring activities."
+  },
+
+  {
+    year: "2025",
+    title: "Freshmen Partner",
+    company: "BINUS University",
+    category: "Mentoring",
+    icon: "🤝",
+    description:
+      "Accompanied and supported freshmen throughout their adaptation period by providing guidance on academic, organizational, and campus-related matters."
+  }
 ]
 
 function Desktop() {
@@ -74,6 +234,7 @@ function Desktop() {
   const [isResumeOpen, setIsResumeOpen] = useState(false)
   const [isContactOpen, setIsContactOpen] = useState(false)
   const [selectedProject, setSelectedProject] = useState(null)
+  const [selectedCertificate, setSelectedCertificate] = useState(null)
 
 useEffect(() => {
   const message = 'MICHELE OS'
@@ -117,7 +278,7 @@ useEffect(() => {
       />
 
       <img
-        src="/images/desktop/skill.png"
+        src="/images/desktop/certif.png"
         alt="Certificates"
         className="skill"
         onClick={() => setIsCertificatesOpen(true)}
@@ -202,13 +363,13 @@ useEffect(() => {
           Semester 5 · GPA: 3.99 / 4.00
         </p>
 
-        <h3>🦁 My Motto</h3>
+        <h3>My Motto</h3>
 
         <p>
           “The past can hurt. But the way I see it, you can either run
           from it, or learn from it.”
           <br />
-          <em>— Rafiki, The Lion King</em>
+          <em>— The Lion King</em>
         </p>
 
         <h3>💬 What People Say About Me</h3>
@@ -282,7 +443,7 @@ useEffect(() => {
 
           <h3>My Role</h3>
 
-          <p>UI/UX Designer & Idea Development</p>
+          <p>{selectedProject.role}</p>
 
           <a
           href={selectedProject.link}
@@ -375,83 +536,207 @@ useEffect(() => {
 
         <div className="certificate-grid">
 
-          <div className="certificate-card">
+          <div className="certificate-card"
+          onClick={() =>
+    setSelectedCertificate("/images/desktop/10.jpg")
+  }>
+            
             <img
-              src="/images/certificates/google-ai.png"
-              alt="Google AI Essentials"
+              src="/images/desktop/10.jpg"
+              alt="Google AI Foundation Certificate"
             />
 
             <div className="certificate-info">
-              <h3>Google AI Essentials</h3>
+              <h3>Google AI Foundation Certificate</h3>
               <p>Google</p>
               <span>AI / ML</span>
             </div>
           </div>
 
-          <div className="certificate-card">
+          <div className="certificate-card"
+          onClick={() =>
+    setSelectedCertificate("/images/desktop/11.jpg")
+  }>
+            
             <img
-              src="/images/certificates/google-data.png"
+              src="/images/desktop/11.jpg"
               alt="Google Data Analytics"
             />
 
             <div className="certificate-info">
-              <h3>Google Data Analytics</h3>
-              <p>Google</p>
-              <span>Data Analytics</span>
+              <h3>Dean's List</h3>
+              <p>BINUS University</p>
+              <span>Academic Achievement</span>
             </div>
           </div>
 
-          <div className="certificate-card">
+          <div className="certificate-card"
+          
+          onClick={() =>
+    setSelectedCertificate("/images/desktop/region.jpg")
+  }>
             <img
-              src="/images/certificates/aws-cloud.png"
+              src="/images/desktop/region.jpg"
               alt="AWS Cloud Foundations"
             />
 
             <div className="certificate-info">
-              <h3>AWS Cloud Foundations</h3>
-              <p>AWS Academy</p>
-              <span>Cloud Computing</span>
+              <h3>Regional President</h3>
+              <p>BSLC</p>
+              <span>Leadership & Organization</span>
             </div>
           </div>
 
-          <div className="certificate-card">
+          <div className="certificate-card"
+          onClick={() =>
+    setSelectedCertificate("/images/desktop/13.jpg")
+  }>
             <img
-              src="/images/certificates/shecodes.png"
+              src="/images/desktop/13.jpg"
               alt="SheCodes"
             />
 
             <div className="certificate-info">
-              <h3>SheCodes Bootcamp</h3>
-              <p>SheCodes</p>
-              <span>Data & Technology</span>
+              <h3>Tutor & Senior Mentor</h3>
+              <p>BSLC</p>
+              <span>Mentoring</span>
             </div>
           </div>
 
-          <div className="certificate-card">
+          <div className="certificate-card"
+          onClick={() =>
+    setSelectedCertificate("/images/desktop/14.jpg")
+  }>
             <img
-              src="/images/certificates/dicoding.png"
+              src="/images/desktop/14.jpg"
               alt="Dicoding"
             />
 
             <div className="certificate-info">
-              <h3>Dicoding Course</h3>
-              <p>Dicoding Indonesia</p>
-              <span>Web Development</span>
+              <h3>Event Coordinator of NMR</h3>
+              <p>BNEC</p>
+              <span>Event Coordination</span>
             </div>
           </div>
 
-          <div className="certificate-card">
+          <div className="certificate-card"
+          onClick={() =>
+    setSelectedCertificate("/images/desktop/15.jpg")
+  }>
             <img
-              src="/images/certificates/ibm.png"
+              src="/images/desktop/15.jpg"
               alt="IBM"
             />
 
             <div className="certificate-info">
-              <h3>IBM Data Science</h3>
-              <p>IBM</p>
-              <span>Data Science</span>
+              <h3>Dig In Competition SemiFinalist</h3>
+              <p>HIMPUNAN SISTEM INFORMASI</p>
+              <span>Competition</span>
             </div>
           </div>
+
+          
+          <div className="certificate-card"
+          onClick={() =>
+    setSelectedCertificate("/images/desktop/16.jpg")
+  }>
+            <img
+              src="/images/desktop/16.jpg"
+              alt="IBM"
+            />
+
+            <div className="certificate-info">
+              <h3>SIS Awardee Excellence</h3>
+              <p>BINUS University</p>
+              <span>Academic Achievement</span>
+            </div>
+          </div>
+
+          <div className="certificate-card"
+          onClick={() =>
+    setSelectedCertificate("/images/desktop/17.jpg")
+  }>
+            <img
+              src="/images/desktop/17.jpg"
+              alt="IBM"
+            />
+
+            <div className="certificate-info">
+              <h3>HACKFEST Competition Finalist</h3>
+              <p>Tarumanagara University</p>
+              <span>Competition</span>
+            </div>
+          </div>
+
+          
+          <div className="certificate-card"
+          onClick={() =>
+    setSelectedCertificate("/images/desktop/18.jpg")
+  }>
+            <img
+              src="/images/desktop/18.jpg"
+              alt="IBM"
+            />
+
+            <div className="certificate-info">
+              <h3>SheCodes Participant Bootcamp</h3>
+              <p>BINUS University</p>
+              <span>Bootcamp & Training</span>
+            </div>
+          </div>
+
+          
+          <div className="certificate-card"
+          onClick={() =>
+    setSelectedCertificate("/images/desktop/19.jpg")
+  }>
+            <img
+              src="/images/desktop/19.jpg"
+              alt="IBM"
+            />
+
+            <div className="certificate-info">
+              <h3>LDKCP Speaker</h3>
+              <p>BSLC</p>
+              <span>Public Speaking</span>
+            </div>
+          </div>
+
+          
+          <div className="certificate-card"
+          onClick={() =>
+    setSelectedCertificate("/images/desktop/21.jpg")
+  }>
+            <img
+              src="/images/desktop/21.jpg"
+              alt="IBM"
+            />
+
+            <div className="certificate-info">
+              <h3>SQL Certification</h3>
+              <p>HackerRank</p>
+              <span>Training & Certification</span>
+            </div>
+          </div>
+
+          
+          
+          <div className="certificate-card"
+          onClick={() =>
+    setSelectedCertificate("/images/desktop/12.jpg")
+  }>
+            <img
+              src="/images/desktop/12.jpg"
+              alt="IBM"
+            />
+
+            <div className="certificate-info">
+              <h3>UI/UX Certificate</h3>
+              <p>MySkill</p>
+              <span>Training & Certification</span>
+            </div>
+          </div>
+
 
         </div>
 
@@ -486,126 +771,37 @@ useEffect(() => {
 
       <div className="experience-timeline">
 
-        {/* 2026 */}
+        {experiences.map((experience, index) => (
+    <div className="timeline-item" key={index}>
 
-        <div className="timeline-year">
-          2026
+      <div className="timeline-dot"></div>
+
+      <div className="experience-card">
+
+        <div className="experience-icon">
+          {experience.icon}
         </div>
 
-        <div className="timeline-item">
+        <div className="experience-info">
 
-          <div className="timeline-dot"></div>
+          <h3>{experience.title}</h3>
 
-          <div className="experience-card">
-            <div className="experience-icon">💼</div>
+          <p>{experience.company}</p>
 
-            <div className="experience-info">
-              <h3>Head of Product Management</h3>
-              <p>PT Ruang Tumbuh Indonesia</p>
-              <span>Product Management</span>
-            </div>
-          </div>
+          <span>{experience.category}</span>
 
-        </div>
-
-
-        <div className="timeline-item">
-
-          <div className="timeline-dot"></div>
-
-          <div className="experience-card">
-            <div className="experience-icon">📊</div>
-
-            <div className="experience-info">
-              <h3>Data Analyst</h3>
-              <p>PT VINIX7</p>
-              <span>Data Analytics</span>
-            </div>
-          </div>
-
-        </div>
-
-
-        <div className="timeline-item">
-
-          <div className="timeline-dot"></div>
-
-          <div className="experience-card">
-            <div className="experience-icon">👥</div>
-
-            <div className="experience-info">
-              <h3>HRD / Leadership</h3>
-              <p>BSLC</p>
-              <span>Leadership</span>
-            </div>
-          </div>
-
-        </div>
-
-
-        {/* 2025 */}
-
-        <div className="timeline-year">
-          2025
-        </div>
-
-        <div className="timeline-item">
-
-          <div className="timeline-dot"></div>
-
-          <div className="experience-card">
-            <div className="experience-icon">🎓</div>
-
-            <div className="experience-info">
-              <h3>Mentor</h3>
-              <p>BNEC / BSLC</p>
-              <span>Teaching & Mentoring</span>
-            </div>
-          </div>
-
-        </div>
-
-
-        <div className="timeline-item">
-
-          <div className="timeline-dot"></div>
-
-          <div className="experience-card">
-            <div className="experience-icon">👥</div>
-
-            <div className="experience-info">
-              <h3>Assistant Manager</h3>
-              <p>BSLC</p>
-              <span>Leadership</span>
-            </div>
-          </div>
-
-        </div>
-
-
-        {/* 2024 */}
-
-        <div className="timeline-year">
-          2024
-        </div>
-
-        <div className="timeline-item">
-
-          <div className="timeline-dot"></div>
-
-          <div className="experience-card">
-            <div className="experience-icon">📚</div>
-
-            <div className="experience-info">
-              <h3>UTS Responsi Class Tutor</h3>
-              <p>BINUS University</p>
-              <span>Teaching</span>
-            </div>
+          <div className="experience-description">
+            {experience.description}
           </div>
 
         </div>
 
       </div>
+
+    </div>
+  ))}
+
+</div>
 
     </div>
 
@@ -638,7 +834,7 @@ useEffect(() => {
       <div className="resume-actions">
 
         <a
-          href="/desktop/ATS.pdf"
+          href="images/desktop/ATS.pdf"
           target="_blank"
           rel="noreferrer"
           className="resume-button"
@@ -686,14 +882,14 @@ useEffect(() => {
       <div className="contact-list">
 
         <a
-          href="mailto:your.email@gmail.com"
+          href="mailto:micheledharma9@gmail.com"
           className="contact-card"
         >
           <div className="contact-icon">✉</div>
 
           <div>
             <h3>Email</h3>
-            <span>your.email@gmail.com</span>
+            <span>micheledharma9@gmail.com</span>
           </div>
 
           <div className="contact-arrow">↗</div>
@@ -701,7 +897,7 @@ useEffect(() => {
 
 
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/in/michele-graciela-27bb70325?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
           target="_blank"
           rel="noreferrer"
           className="contact-card"
@@ -710,7 +906,7 @@ useEffect(() => {
 
           <div>
             <h3>LinkedIn</h3>
-            <span>linkedin.com/in/yourusername</span>
+            <span>linkedin.com/in/michele-graciela</span>
           </div>
 
           <div className="contact-arrow">↗</div>
@@ -718,7 +914,7 @@ useEffect(() => {
 
 
         <a
-          href="https://github.com/"
+          href="https://github.com/mgrclaa"
           target="_blank"
           rel="noreferrer"
           className="contact-card"
@@ -727,7 +923,7 @@ useEffect(() => {
 
           <div>
             <h3>GitHub</h3>
-            <span>github.com/yourusername</span>
+            <span>github.com/mgrclaa</span>
           </div>
 
           <div className="contact-arrow">↗</div>
@@ -735,6 +931,30 @@ useEffect(() => {
 
       </div>
 
+    </div>
+
+  </div>
+)}
+
+{selectedCertificate && (
+  <div className="certificate-preview-window">
+
+    <div className="window-header">
+      <span>Certificate Preview</span>
+
+      <button
+        className="close-button"
+        onClick={() => setSelectedCertificate(null)}
+      >
+        ×
+      </button>
+    </div>
+
+    <div className="certificate-preview-content">
+      <img
+        src={selectedCertificate}
+        alt="Certificate Preview"
+      />
     </div>
 
   </div>
