@@ -136,7 +136,7 @@ const experiences = [
     category: "Product Management",
     icon: "💼",
     description:
-      "Created successful products and programs by analyzing target markets and using qualitative and quantitative data. Developed English programs that successfully reached a large audience."
+      "Created products and programs by analyzing target markets and using qualitative and quantitative data. Developed English programs that reached a large audience."
   },
 
   {
@@ -162,11 +162,21 @@ const experiences = [
   {
     year: "2026",
     title: "Beelingua Mentor",
-    company: "BSLC",
+    company: "BINUS University",
     category: "Mentoring",
     icon: "🎓",
     description:
       "Mentored Beelingua participants throughout their learning journey by providing guidance and support. 86% of mentees successfully completed Beelingua on time with the support provided."
+  },
+
+  {
+    year: "2026",
+    title: "BSLC Senior Mentor",
+    company: "BSLC",
+    category: "Mentoring",
+    icon: "🎓",
+    description:
+      "Mentored more than 10 freshmen including freshmen with special needs and disability"
   },
 
   {
@@ -560,6 +570,38 @@ useEffect(() => {
         </p>
 
         <div className="certificate-grid">
+
+          <div className="certificate-card"
+          onClick={() =>
+    setSelectedCertificate("/images/desktop/AWSS.png")
+  }>
+            <img
+              src="/images/desktop/AWSS.png"
+              alt="IBM"
+            />
+
+            <div className="certificate-info">
+              <h3>AWS Machine Learning</h3>
+              <p>AWS</p>
+              <span>Cloud Computing</span>
+            </div>
+          </div>
+
+          <div className="certificate-card"
+          onClick={() =>
+    setSelectedCertificate("/images/desktop/AWAS.png")
+  }>
+            <img
+              src="/images/desktop/AWAS.png"
+              alt="IBM"
+            />
+
+            <div className="certificate-info">
+              <h3>AWS Data Engineering</h3>
+              <p>AWS</p>
+              <span>Cloud Computing</span>
+            </div>
+          </div>
 
           <div className="certificate-card"
           onClick={() =>

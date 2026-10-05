@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
 
-  font-family: 'PixelFont', sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
 .desktop {
@@ -120,6 +120,7 @@
 }
 
 .computer-screen {
+  font-family: 'PixelFont', sans-serif;
   position: absolute;
 
   top: 50%;
@@ -151,6 +152,7 @@
   width: 80px;
   height: auto;
   text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
 
   z-index:5;
 
@@ -159,6 +161,7 @@
 }
 
 .project{
+  font-size: 14px;
   position: absolute;
   width: 80px;
   height: auto;
@@ -268,8 +271,8 @@
   padding: 25px;
   gap: 30px;
   color: white;
-  font-family: 'PixelFont', sans-serif;
-  font-size: 9px;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 14px;
   line-height: 1.8;
 }
 
@@ -313,6 +316,7 @@
 }
 
 .projects-window {
+  font-size: 14px;
   position: absolute;
   top: 12.5%;
   left: 12.5%;
@@ -326,6 +330,7 @@
 }
 
 .projects-content {
+  font-size:14px;
   height: calc(100% - 40px);
   display: flex;
 }
@@ -350,6 +355,7 @@
 }
 
 .projects-area {
+  font-size:14px;
   flex: 1;
   padding: 25px;
   overflow-y: auto;
@@ -361,12 +367,13 @@
 }
 
 .projects-area p {
-  font-size: 9px;
+  font-size: 14px;
   line-height: 1.8;
 }
 
 
 .certificates-window {
+  font-size:14px;
   position: absolute;
   top: 12.5%;
   left: 12.5%;
@@ -382,6 +389,7 @@
 }
 
 .certificates-content {
+  font-size:14px;
   height: calc(100% - 40px);
   display: flex;
 }
@@ -408,6 +416,7 @@
 
 
 .certificates-area {
+  font-size:14px;
   flex: 1;
   padding: 25px;
   overflow-y: auto;
@@ -472,13 +481,13 @@
 }
 
 .certificate-info h3 {
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.5;
   margin: 0 0 8px;
 }
 
 .certificate-info p {
-  font-size: 8px;
+  font-size: 14px;
   margin: 0 0 12px;
   color: #d8c8ef;
 }
@@ -501,6 +510,7 @@
 ========================= */
 
 .experience-window {
+  font-family: "Trebuchet MS" sans-serif;
   position: absolute;
   top: 12.5%;
   left: 12.5%;
@@ -516,22 +526,23 @@
 }
 
 .experience-content {
+
   height: calc(100% - 40px);
   padding: 25px 35px;
 
   overflow-y: auto;
 
   color: white;
-  font-family: 'PixelFont', sans-serif;
+ font-family: "Trebuchet MS" sans-serif;
 }
 
 .experience-content h2 {
   margin: 0;
-  font-size: 14px;
+  font-size: 19px;
 }
 
 .experience-description {
-  font-size: 9px;
+  font-size: 14px;
   line-height: 1.8;
   margin-bottom: 30px;
   color: #d8c8ef;
@@ -580,7 +591,7 @@
 
   border: 2px solid #c99cff;
 
-  font-size: 9px;
+  font-size: 14px;
 
   z-index: 2;
 }
@@ -681,13 +692,13 @@
 .experience-info h3 {
   margin: 0 0 7px;
 
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .experience-info p {
   margin: 0 0 8px;
 
-  font-size: 8px;
+  font-size: 12px;
 
   color: #d8c8ef;
 }
@@ -701,7 +712,7 @@
 
   border: 1px solid #8d6bc1;
 
-  font-size: 7px;
+  font-size: 12px;
 }
 
 .resume-window {
@@ -936,7 +947,7 @@
 
 .project-info h3 {
   margin: 0 0 8px;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .project-category {
@@ -944,16 +955,17 @@
   padding: 5px 7px;
   background: #5b3b88;
   border: 1px solid #c99cff;
-  font-size: 7px;
+  font-size: 11px;
 }
 
 .project-info p {
   margin: 8px 0 0;
-  font-size: 8px;
+  font-size: 13px;
   color: #d8c8ef;
 }
 
 .project-detail {
+  font-size:14px;
   height: 100%;
   overflow-y: auto;
   padding-right: 15px;
@@ -976,7 +988,7 @@
 
 .project-detail h2 {
   margin: 0 0 10px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .project-detail h3 {
@@ -985,7 +997,7 @@
 }
 
 .project-detail p {
-  font-size: 8px;
+  font-size: 12px;
   line-height: 1.8;
   color: #d8c8ef;
   max-width: 700px;
@@ -1058,4 +1070,10 @@
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+}
+
+.experience-info .experience-description {
+  margin-bottom: 0;
+  font-size: 13px;
+  line-height: 1.5;
 }
