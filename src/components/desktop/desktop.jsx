@@ -14,6 +14,31 @@ const projects = [
     link: "https://canva.link/c98hi45hq0ehnm8",
   },
 
+  {
+  title: "EV Sales Data Pipeline",
+  category: "Data Analytics",
+  year: "2026",
+  image: "/images/desktop/22.png",
+  description:
+    "A mini data analytics project using the IEA Global EV Data 2024 dataset to analyze electric vehicle sales across regions and years. I developed a Python-based data pipeline to profile, clean, transform, and prepare the dataset for analysis, producing structured datasets for further insights and visualization.",
+  role: "Data Analyst",
+  tools: "Python, Pandas",
+  link: "https://github.com/mgrclaa/EV_SALES",
+},
+
+{
+  title: "BSLC Freshmen Email Automation",
+  category: "Automation",
+  year: "2026",
+  image: "/images/desktop/23.png",
+  description:
+    "An automation project developed to support BSLC's marketing campaign for freshmen. I used n8n and Google Sheets to automate email distribution to prospective freshmen, streamlining the outreach process and reducing repetitive manual work. The campaign reached around 2,350 students and contributed to a 20% increase in registrations.",
+  role: "Automation Developer",
+  tools: "n8n, Google Sheets",
+  link: "https://docs.google.com/document/d/1C6GvXrshgbuJnfCc-vb5SMd1anWAUZcUvVu-4I4F700/edit?usp=sharing",
+},
+  
+
     {
     title: "Furniland",
     category: "Web Development",
@@ -28,7 +53,7 @@ const projects = [
 
       {
     title: "COMPSIS",
-    category: "Business Case",
+    category: "UI/UX",
     year: "2026",
     image: "/images/desktop/8.jpg",
     description:
@@ -360,7 +385,7 @@ useEffect(() => {
           <br />
           Bachelor of Information Systems
           <br />
-          Semester 5 · GPA: 3.99 / 4.00
+          Semester 5 · GPA: 3.98 / 4.00
         </p>
 
         <h3>My Motto</h3>
@@ -826,7 +851,7 @@ useEffect(() => {
 
       <div className="resume-preview">
         <iframe
-          src="./images/desktop/mg.png"
+          src="./images/desktop/mgg.png"
           title="Michele Graciela Resume"
         ></iframe>
       </div>
@@ -834,7 +859,7 @@ useEffect(() => {
       <div className="resume-actions">
 
         <a
-          href="images/desktop/ATS.pdf"
+          href="images/desktop/cvcv.pdf"
           target="_blank"
           rel="noreferrer"
           className="resume-button"
@@ -843,7 +868,7 @@ useEffect(() => {
         </a>
 
         <a
-          href="/images/desktop/ATS.pdf"
+          href="/images/desktop/cvcv.pdf"
           download
           className="resume-button"
         >
